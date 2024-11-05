@@ -14,7 +14,7 @@ services:
   app-timesheet:
     depends_on:
       - mysqldb
-    image: alaabelg/gestion-station-ski:1.0.1
+    image: alaabelg/gestion-station-ski:1.0.2
     #build : ./
     restart: on-failure
     ports:
